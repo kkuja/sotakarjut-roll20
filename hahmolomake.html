@@ -1,0 +1,563 @@
+<h3 class='otsikko'>OPERAATTORIN TIEDOT</h3>
+
+<table>
+    <tbody>
+        <tr>
+            <td>Sarjanumero:</td>
+            <td><input type='text' name='attr_sarjanumero' class='sarjanumero' /></td>
+            <td>Nimi/kutsumerkki:</td>
+            <td><input type='text' name='attr_nimi' class='nimi' /></td>
+        </tr>
+        <tr>
+            <td>Malli/genotyyppi:</td>
+            <td><input type='text' name='attr_malli' class='malli' /></td>
+            <td>Taso/sotilasarvo:</td>
+            <td><input type='text' name='attr_taso' class='taso' /></td>
+        </tr>
+        <tr>
+            <td>Erikoistumishaara:</td>
+            <td><input type='text' name='attr_erikoistumishaara' class='erikoistumishaara' /></td>
+            <td>Turvaluokitus:</td>
+            <td><input type='text' name='attr_turvaluokitus' class='turvaluokitus' /></td>
+        </tr>
+        <tr>
+            <td>Tuntomerkit/ulkonäkö:</td>
+            <td colspan='3'><input type='text' name='attr_tuntomerkit' class='tuntomerkit' /></td>
+        </tr>
+    </tbody>
+</table>
+
+<table class='statteja'>
+    <tr><th>Aloite</th><th>Puolustus</th><th>Panssari</th><th>Ref bonus</th><th>Liike</th></tr>
+    <tr>
+        <td><input type='text' name='attr_Aloite' class='Aloite' /></td>
+        <td><input type='text' name='attr_Puolustus' class='Puolustus' /></td>
+        <td><input type='text' name='attr_Panssari' class='Panssari' /></td>
+        <td><input type='text' name='attr_Refbonus' class='Refbonus' /></td>
+        <td><input type='text' name='attr_Liike' class='Liike' /></td>
+    </tr>
+</table>
+
+<h3 class='otsikko'>OMINAISUUDET</h3>
+<table class='ominaisuudet'>
+    <tbody>
+        <tr><td>Keho</td><td><input type='text' name='attr_keho' class='keho' /></td></tr>
+        <tr><td>Tarkkuus</td><td><input type='text' name='attr_tarkkuus' class='tarkkuus' /></td></tr>
+        <tr><td>Älykkyys</td><td><input type='text' name='attr_alykkyys' class='alykkyys' /></td></tr>
+        <tr><td>Psyyke</td><td><input type='text' name='attr_psyyke' class='psyyke' /></td></tr>
+    </tbody>
+</table>
+
+<H3 class='otsikko'>YLENNYKSET&KOULUTUS</h3>
+    Ylennykset <input type='text' name='attr_ylennykset' class='ylennykset' /><br />
+    Kokemus <input type='text' name='attr_kokemus' class='kokemus' />
+
+    <h3 class='otsikko'>TOIMINTAKYKY</h3>
+    Sitkeys <input type='text' name='attr_sitkeys' class='sitkeys' /><br />
+    Sitkeys pisteitä jäljellä <input type='text' name='attr_sitkeysjaljella' class='sitkeysjaljella' /><br />
+    Haavaraja <input type='text' name='attr_haavaraja' class='haavaraja' />
+
+    <h4 class='otsikko'>Vakavat haavat</h4>
+    <input type='text' name='attr_haava1' class='haava1' /> <input type='text' name='attr_va1' class='va1' /><br />
+    <input type='text' name='attr_haava2' class='haava2' /> <input type='text' name='attr_va2' class='va2' /><br />
+    <input type='text' name='attr_haava3' class='haava3' /> <input type='text' name='attr_va3' class='va3' /><br />
+    <input type='text' name='attr_haava4' class='haava4' /> <input type='text' name='attr_va4' class='va4' /><br />
+
+    <h3 class='otsikko'>TROIJALAINEN</h3>
+    Luonne:
+    <textarea name='attr_luonne' class='luonne'></textarea><br />
+    Identiteetti
+    <textarea name='attr_identiteetti' class='identiteetti'></textarea>
+
+    <h3 class='otsikko'>Muistot</h3>
+    <table class='muistolista'>
+        <tbody>
+            <tr>
+                <th class='muisto_hc1'>Muisto</th>
+                <th class='muisto_hc2'>N</th>
+                <th class='muisto_hc3'>K</th>
+                <th class='muisto_hc4'>M</th>
+                <th class='muisto_hc5'>H</th>
+                <th class='muisto_hc6'>T</th>
+            </tr>
+            <tr>
+                <td class='muisto_hc1'><input type='text' name='attr_muisto1' class='muisto1' /></td>
+                <td class='muisto_hc1'><input type='checkbox' name='attr_muisto1n' class='muisto1n' value='N' /></td>
+                <td class='muisto_hc1'><input type='checkbox' name='attr_muisto1k' class='muisto1k' value='K' /></td>
+                <td class='muisto_hc1'><input type='checkbox' name='attr_muisto1m' class='muisto1m' value='M' /></td>
+                <td class='muisto_hc1'><input type='checkbox' name='attr_muisto1h' class='muisto1h' value='H' /></td>
+                <td class='muisto_hc1'><input type='checkbox' name='attr_muisto1t' class='muisto1t' value='T' /></td>
+            </tr>
+            <tr>
+                <td class='muisto_hc2'><input type='text' name='attr_muisto2' class='muisto2' /></td>
+                <td class='muisto_hc2'><input type='checkbox' name='attr_muisto2n' class='muisto2n' value='N' /></td>
+                <td class='muisto_hc2'><input type='checkbox' name='attr_muisto2k' class='muisto2k' value='K' /></td>
+                <td class='muisto_hc2'><input type='checkbox' name='attr_muisto2m' class='muisto2m' value='M' /></td>
+                <td class='muisto_hc2'><input type='checkbox' name='attr_muisto2h' class='muisto2h' value='H' /></td>
+                <td class='muisto_hc2'><input type='checkbox' name='attr_muisto2t' class='muisto2t' value='T' /></td>
+            </tr>
+            <tr>
+                <td class='muisto_hc3'><input type='text' name='attr_muisto3' class='muisto3' /></td>
+                <td class='muisto_hc3'><input type='checkbox' name='attr_muisto3n' class='muisto3n' value='N' /></td>
+                <td class='muisto_hc3'><input type='checkbox' name='attr_muisto3k' class='muisto3k' value='K' /></td>
+                <td class='muisto_hc3'><input type='checkbox' name='attr_muisto3m' class='muisto3m' value='M' /></td>
+                <td class='muisto_hc3'><input type='checkbox' name='attr_muisto3h' class='muisto3h' value='H' /></td>
+                <td class='muisto_hc3'><input type='checkbox' name='attr_muisto3t' class='muisto3t' value='T' /></td>
+            </tr>
+            <tr>
+                <td class='muisto_hc4'><input type='text' name='attr_muisto4' class='muisto4' /></td>
+                <td class='muisto_hc4'><input type='checkbox' name='attr_muisto4n' class='muisto4n' value='N' /></td>
+                <td class='muisto_hc4'><input type='checkbox' name='attr_muisto4k' class='muisto4k' value='K' /></td>
+                <td class='muisto_hc4'><input type='checkbox' name='attr_muisto4m' class='muisto4m' value='M' /></td>
+                <td class='muisto_hc4'><input type='checkbox' name='attr_muisto4h' class='muisto4h' value='H' /></td>
+                <td class='muisto_hc4'><input type='checkbox' name='attr_muisto4t' class='muisto4t' value='T' /></td>
+            </tr>
+            <tr>
+                <td class='muisto_hc5'><input type='text' name='attr_muisto5' class='muisto5' /></td>
+                <td class='muisto_hc5'><input type='checkbox' name='attr_muisto5n' class='muisto5n' value='N' /></td>
+                <td class='muisto_hc5'><input type='checkbox' name='attr_muisto5k' class='muisto5k' value='K' /></td>
+                <td class='muisto_hc5'><input type='checkbox' name='attr_muisto5m' class='muisto5m' value='M' /></td>
+                <td class='muisto_hc5'><input type='checkbox' name='attr_muisto5h' class='muisto5h' value='H' /></td>
+                <td class='muisto_hc5'><input type='checkbox' name='attr_muisto5t' class='muisto5t' value='T' /></td>
+            </tr>
+        </tbody>
+    </table>
+    <h3 class='otsikko'>TAIDOT</h3>
+    <div class='taitolista'>
+        <div class='taitoRivi'>
+            <div class='taitoNimi'>Ajoneuvot</div>
+            <div class='taitoArvo'><input type='text' name='attr_AjoneuvotArvo' class='taitoInput ajoneuvot' /></div>
+            <div class='taitoOminaisuus'>
+                <select name='attr_Ajoneuvot_ominaisuus' class='taitoOminaisuus'>
+                    <option value='@{keho}'>Keho</option>
+                    <option value='@{tarkkuus}'>Tarkkuus</option>
+                    <option value='@{alykkyys}'>Älykkyys</option>
+                    <option value='@{psyyke}'>Psyyke</option>
+                </select>
+            </div>
+            <div class='taitoRoll'>
+                <button type='roll' name='roll_Kunto' value='@{nimi} heittää Ajoneuvot\n/roll @{AjoneuvotArvo}d10>6 + @{Ajoneuvot_ominaisuus}d10>6'></button>
+            </div>
+        </div>
+        <div class='taitoRivi'>
+            <div class='taitoNimi'>Asej&auml;rjestelm&auml;t</div>
+            <div class='taitoArvo'><input type='text' name='attr_AsejarjestelmatArvo' class='taitoInput Asejarjestelmat' /></div>
+            <div class='taitoOminaisuus'>
+                <select name='attr_Asejarjestelmat_ominaisuus' class='taitoOminaisuus'>
+                    <option value='@{keho}'>Keho</option>
+                    <option value='@{tarkkuus}'>Tarkkuus</option>
+                    <option value='@{alykkyys}'>Älykkyys</option>
+                    <option value='@{psyyke}'>Psyyke</option>
+                </select>
+            </div>
+            <div class='taitoRoll'>
+                <button type='roll' name='roll_Kunto' value='@{nimi} heittää Asej&auml;rjestelm&auml;t\n/roll @{AsejarjestelmatArvo}d10>6 + @{Asejarjestelmat_ominaisuus}d10>6'></button>
+            </div>
+        </div>
+        <div class='taitoRivi'>
+            <div class='taitoNimi'>Hiipiminen</div>
+            <div class='taitoArvo'><input type='text' name='attr_HiipiminenArvo' class='taitoInput Hiipiminen' /></div>
+            <div class='taitoOminaisuus'>
+                <select name='attr_Hiipiminen_ominaisuus' class='taitoOminaisuus'>
+                    <option value='@{keho}'>Keho</option>
+                    <option value='@{tarkkuus}'>Tarkkuus</option>
+                    <option value='@{alykkyys}'>Älykkyys</option>
+                    <option value='@{psyyke}'>Psyyke</option>
+                </select>
+            </div>
+            <div class='taitoRoll'>
+                <button type='roll' name='roll_Kunto' value='@{nimi} heittää Hiipiminen\n/roll @{HiipiminenArvo}d10>6 + @{Hiipiminen_ominaisuus}d10>6'></button>
+            </div>
+        </div>
+        <div class='taitoRivi'>
+            <div class='taitoNimi'>Itsekuri</div>
+            <div class='taitoArvo'><input type='text' name='attr_ItsekuriArvo' class='taitoInput Itsekuri' /></div>
+            <div class='taitoOminaisuus'>
+                <select name='attr_Itsekuri_ominaisuus' class='taitoOminaisuus'>
+                    <option value='@{keho}'>Keho</option>
+                    <option value='@{tarkkuus}'>Tarkkuus</option>
+                    <option value='@{alykkyys}'>Älykkyys</option>
+                    <option value='@{psyyke}'>Psyyke</option>
+                </select>
+            </div>
+            <div class='taitoRoll'>
+                <button type='roll' name='roll_Kunto' value='@{nimi} heittää Itsekuri\n/roll @{ItsekuriArvo}d10>6 + @{Itsekuri_ominaisuus}d10>6'></button>
+            </div>
+        </div>
+        <div class='taitoRivi'>
+            <div class='taitoNimi'>Ketteryys</div>
+            <div class='taitoArvo'><input type='text' name='attr_KetteryysArvo' class='taitoInput Ketteryys' /></div>
+            <div class='taitoOminaisuus'>
+                <select name='attr_Ketteryys_ominaisuus' class='taitoOminaisuus'>
+                    <option value='@{keho}'>Keho</option>
+                    <option value='@{tarkkuus}'>Tarkkuus</option>
+                    <option value='@{alykkyys}'>Älykkyys</option>
+                    <option value='@{psyyke}'>Psyyke</option>
+                </select>
+            </div>
+            <div class='taitoRoll'>
+                <button type='roll' name='roll_Kunto' value='@{nimi} heittää Ketteryys\n/roll @{KetteryysArvo}d10>6 + @{Ketteryys_ominaisuus}d10>6'></button>
+            </div>
+        </div>
+        <div class='taitoRivi'>
+            <div class='taitoNimi'>Kunto<input type='hidden' name='attr_kunto_d10' value='@{Kunto}+@{tarkkuus}'></div>
+
+            <div class='taitoArvo'><input type='text' name='attr_KuntoArvo' class='taitoInput Kunto' /></div>
+            <div class='taitoOminaisuus'>
+                <select name='attr_Kunto_ominaisuus' class='taitoOminaisuus'>
+                    <option value='@{keho}'>Keho</option>
+                    <option value='@{tarkkuus}'>Tarkkuus</option>
+                    <option value='@{alykkyys}'>Älykkyys</option>
+                    <option value='@{psyyke}'>Psyyke</option>
+                </select>
+            </div>
+            <div class='taitoRoll'>
+                <button type='roll' name='roll_Kunto' value='@{nimi} heittää Ketteryys\n/roll @{KuntoArvo}d10>6 + @{Kunto_ominaisuus}d10>6'></button>
+            </div>
+<!--
+<div class='taitoRoll'>
+<button type='roll' name='roll_Kunto' value='@{nimi} heittää\n/roll @{Kunto}d10>6 + @{tarkkuus}d10>6'></button>
+</div>
+            <div class='taitoOminaisuus'>
+<select name='attr_ajoneuvot_ominaisuus' class='taitoOminaisuus'>
+<option value='@{keho}'>Keho</option>
+<option value='@{tarkkuus}'>Tarkkuus</option>
+<option value='@{alykkyys}'>Älykkyys</option>
+<option value='@{psyyke}'>Psyyke</option>
+</select>
+</div>
+<div class='taitoRoll'>
+<button type='roll' name='roll_Kunto' value='@{nimi} heittää\n/roll @{Kunto}d10>6 + @{tarkkuus}d10>6'></button>
+</div>
+            <button type='roll' name='roll_Athletics' value='!eed characterID(@{character_id}) label(skill:Athletics) @{diceAthletics} encum(@{encumbrancemax}|@{encumbrance}) skill(@{rankAthletics}|@{char_athleticsbr}|Athletics) @{dicePool} (gmdice)'></button>
+        -->
+    </div>
+    <div class='taitoRivi'>
+        <div class='taitoNimi'>K&auml;ytt&ouml;liittym&auml;t</div>
+        <div class='taitoArvo'><input type='text' name='attr_KayttoliittymatArvo' class='taitoInput Kayttoliittymat' /></div>
+        <div class='taitoOminaisuus'>
+            <select name='attr_Kayttoliittymat_ominaisuus' class='taitoOminaisuus'>
+                <option value='@{keho}'>Keho</option>
+                <option value='@{tarkkuus}'>Tarkkuus</option>
+                <option value='@{alykkyys}'>Älykkyys</option>
+                <option value='@{psyyke}'>Psyyke</option>
+            </select>
+        </div>
+        <div class='taitoRoll'>
+            <button type='roll' name='roll_Kunto' value='@{nimi} heittää K&auml;ytt&ouml;liittym&auml;t\n/roll @{KayttoliittymatArvo}d10>6 + @{Kayttoliittymat_ominaisuus}d10>6'></button>
+        </div>
+    </div>
+    <div class='taitoRivi'>
+        <div class='taitoNimi'>L&auml;hitaistelu</div>
+        <div class='taitoArvo'><input type='text' name='attr_LahitaisteluArvo' class='taitoInput Lahitaistelu' /></div>
+        <div class='taitoOminaisuus'>
+            <select name='attr_Lahitaistelu_ominaisuus' class='taitoOminaisuus'>
+                <option value='@{keho}'>Keho</option>
+                <option value='@{tarkkuus}'>Tarkkuus</option>
+                <option value='@{alykkyys}'>Älykkyys</option>
+                <option value='@{psyyke}'>Psyyke</option>
+            </select>
+        </div>
+        <div class='taitoRoll'>
+            <button type='roll' name='roll_Kunto' value='@{nimi} heittää L&auml;hitaistelu\n/roll @{LahitaisteluArvo}d10>6 + @{Lahitaistelu_ominaisuus}d10>6'></button>
+        </div>
+    </div>
+    <div class='taitoRivi'>
+        <div class='taitoNimi'>L&auml;&auml;kint&auml;</div>
+        <div class='taitoArvo'><input type='text' name='attr_LaakintaArvo' class='taitoInput Laakinta' /></div>
+        <div class='taitoOminaisuus'>
+            <select name='attr_Laakinta_ominaisuus' class='taitoOminaisuus'>
+                <option value='@{keho}'>Keho</option>
+                <option value='@{tarkkuus}'>Tarkkuus</option>
+                <option value='@{alykkyys}'>Älykkyys</option>
+                <option value='@{psyyke}'>Psyyke</option>
+            </select>
+        </div>
+        <div class='taitoRoll'>
+            <button type='roll' name='roll_Kunto' value='@{nimi} heittää L&auml;&auml;kint&auml;\n/roll @{LaakintaArvo}d10>6 + @{Laakinta_ominaisuus}d10>6'></button>
+        </div>
+    </div>
+    <div class='taitoRivi'>
+        <div class='taitoNimi'>Pilotti</div>
+        <div class='taitoArvo'><input type='text' name='attr_PilottiArvo' class='taitoInput Pilotti' /></div>
+        <div class='taitoOminaisuus'>
+            <select name='attr_Pilotti_ominaisuus' class='taitoOminaisuus'>
+                <option value='@{keho}'>Keho</option>
+                <option value='@{tarkkuus}'>Tarkkuus</option>
+                <option value='@{alykkyys}'>Älykkyys</option>
+                <option value='@{psyyke}'>Psyyke</option>
+            </select>
+        </div>
+        <div class='taitoRoll'>
+            <button type='roll' name='roll_Kunto' value='@{nimi} heittää Pilotti\n/roll @{PilottiArvo}d10>6 + @{Pilotti_ominaisuus}d10>6'></button>
+        </div>
+    </div>
+    <div class='taitoRivi'>
+        <div class='taitoNimi'>Selviytyminen</div>
+        <div class='taitoArvo'><input type='text' name='attr_SelviytyminenArvo' class='taitoInput Selviytyminen' /></div>
+        <div class='taitoOminaisuus'>
+            <select name='attr_Selviytyminen_ominaisuus' class='taitoOminaisuus'>
+                <option value='@{keho}'>Keho</option>
+                <option value='@{tarkkuus}'>Tarkkuus</option>
+                <option value='@{alykkyys}'>Älykkyys</option>
+                <option value='@{psyyke}'>Psyyke</option>
+            </select>
+        </div>
+        <div class='taitoRoll'>
+            <button type='roll' name='roll_Kunto' value='@{nimi} heittää Selviytyminen\n/roll @{SelviytyminenArvo}d10>6 + @{Selviytyminen_ominaisuus}d10>6'></button>
+        </div>
+    </div>
+    <div class='taitoRivi'>
+        <div class='taitoNimi'>Sormin&auml;pp&auml;ryys</div>
+        <div class='taitoArvo'><input type='text' name='attr_SorminapparyysArvo' class='taitoInput Sorminapparyys' /></div>
+        <div class='taitoOminaisuus'>
+            <select name='attr_Sorminapparyys_ominaisuus' class='taitoOminaisuus'>
+                <option value='@{keho}'>Keho</option>
+                <option value='@{tarkkuus}'>Tarkkuus</option>
+                <option value='@{alykkyys}'>Älykkyys</option>
+                <option value='@{psyyke}'>Psyyke</option>
+            </select>
+        </div>
+        <div class='taitoRoll'>
+            <button type='roll' name='roll_Kunto' value='@{nimi} heittää Sormin&auml;pp&auml;ryys\n/roll @{SorminapparyysArvo}d10>6 + @{Sorminapparyys_ominaisuus}d10>6'></button>
+        </div>
+    </div>
+    <div class='taitoRivi'>
+        <div class='taitoNimi'>Taktiikka</div>
+        <div class='taitoArvo'><input type='text' name='attr_TaktiikkaArvo' class='taitoInput Taktiikka' /></div>
+        <div class='taitoOminaisuus'>
+            <select name='attr_Taktiikka_ominaisuus' class='taitoOminaisuus'>
+                <option value='@{keho}'>Keho</option>
+                <option value='@{tarkkuus}'>Tarkkuus</option>
+                <option value='@{alykkyys}'>Älykkyys</option>
+                <option value='@{psyyke}'>Psyyke</option>
+            </select>
+        </div>
+        <div class='taitoRoll'>
+            <button type='roll' name='roll_Kunto' value='@{nimi} heittää Taktiikka\n/roll @{TaktiikkaArvo}d10>6 + @{Taktiikka_ominaisuus}d10>6'></button>
+        </div>
+    </div>
+    <div class='taitoRivi'>
+        <div class='taitoNimi'>Tekniikka</div>
+        <div class='taitoArvo'><input type='text' name='attr_TekniikkaArvo' class='taitoInput Tekniikka' /></div>
+        <div class='taitoOminaisuus'>
+            <select name='attr_Tekniikka_ominaisuus' class='taitoOminaisuus'>
+                <option value='@{keho}'>Keho</option>
+                <option value='@{tarkkuus}'>Tarkkuus</option>
+                <option value='@{alykkyys}'>Älykkyys</option>
+                <option value='@{psyyke}'>Psyyke</option>
+            </select>
+        </div>
+        <div class='taitoRoll'>
+            <button type='roll' name='roll_Kunto' value='@{nimi} heittää Tekniikka\n/roll @{TekniikkaArvo}d10>6 + @{Tekniikka_ominaisuus}d10>6'></button>
+        </div>
+    </div>
+    <div class='taitoRivi'>
+        <div class='taitoNimi'>Tieteet</div>
+        <div class='taitoArvo'><input type='text' name='attr_TieteetArvo' class='taitoInput Tieteet' /></div>
+        <div class='taitoOminaisuus'>
+            <select name='attr_Tieteet_ominaisuus' class='taitoOminaisuus'>
+                <option value='@{keho}'>Keho</option>
+                <option value='@{tarkkuus}'>Tarkkuus</option>
+                <option value='@{alykkyys}'>Älykkyys</option>
+                <option value='@{psyyke}'>Psyyke</option>
+            </select>
+        </div>
+        <div class='taitoRoll'>
+            <button type='roll' name='roll_Kunto' value='@{nimi} heittää Tieteet\n/roll @{TieteetArvo}d10>6 + @{Tieteet_ominaisuus}d10>6'></button>
+        </div>
+    </div>
+    <div class='taitoRivi'>
+        <div class='taitoNimi'>Tuliaseet</div>
+        <div class='taitoArvo'><input type='text' name='attr_TuliaseetArvo' class='taitoInput Tuliaseet' /></div>
+        <div class='taitoOminaisuus'>
+            <select name='attr_Tuliaseet_ominaisuus' class='taitoOminaisuus'>
+                <option value='@{keho}'>Keho</option>
+                <option value='@{tarkkuus}'>Tarkkuus</option>
+                <option value='@{alykkyys}'>Älykkyys</option>
+                <option value='@{psyyke}'>Psyyke</option>
+            </select>
+        </div>
+        <div class='taitoRoll'>
+            <button type='roll' name='roll_Kunto' value='@{nimi} heittää Tuliaseet\n/roll @{TuliaseetArvo}d10>6 + @{Tuliaseet_ominaisuus}d10>6'></button>
+        </div>
+    </div>
+    <div class='taitoRivi'>
+        <div class='taitoNimi'>Vaikutusvalta</div>
+        <div class='taitoArvo'><input type='text' name='attr_VaikutusvaltaArvo' class='taitoInput Vaikutusvalta' /></div>
+        <div class='taitoOminaisuus'>
+            <select name='attr_Vaikutusvalta_ominaisuus' class='taitoOminaisuus'>
+                <option value='@{keho}'>Keho</option>
+                <option value='@{tarkkuus}'>Tarkkuus</option>
+                <option value='@{alykkyys}'>Älykkyys</option>
+                <option value='@{psyyke}'>Psyyke</option>
+            </select>
+        </div>
+        <div class='taitoRoll'>
+            <button type='roll' name='roll_Kunto' value='@{nimi} heittää Vaikutusvalta\n/roll @{VaikutusvaltaArvo}d10>6 + @{Vaikutusvalta_ominaisuus}d10>6'></button>
+        </div>
+    </div>
+    <div class='taitoRivi'>
+        <div class='taitoNimi'>Vaisto</div>
+        <div class='taitoArvo'><input type='text' name='attr_VaistoArvo' class='taitoInput Vaisto' /></div>
+        <div class='taitoOminaisuus'>
+            <select name='attr_Vaisto_ominaisuus' class='taitoOminaisuus'>
+                <option value='@{keho}'>Keho</option>
+                <option value='@{tarkkuus}'>Tarkkuus</option>
+                <option value='@{alykkyys}'>Älykkyys</option>
+                <option value='@{psyyke}'>Psyyke</option>
+            </select>
+        </div>
+        <div class='taitoRoll'>
+            <button type='roll' name='roll_Kunto' value='@{nimi} heittää Vaisto\n/roll @{VaistoArvo}d10>6 + @{Vaisto_ominaisuus}d10>6'></button>
+        </div>
+    </div>
+    <div class='taitoRivi'>
+        <div class='taitoNimi'>Valppaus</div>
+        <div class='taitoArvo'><input type='text' name='attr_ValppausArvo' class='taitoInput Valppaus' /></div>
+        <div class='taitoOminaisuus'>
+            <select name='attr_Valppaus_ominaisuus' class='taitoOminaisuus'>
+                <option value='@{keho}'>Keho</option>
+                <option value='@{tarkkuus}'>Tarkkuus</option>
+                <option value='@{alykkyys}'>Älykkyys</option>
+                <option value='@{psyyke}'>Psyyke</option>
+            </select>
+        </div>
+        <div class='taitoRoll'>
+            <button type='roll' name='roll_Kunto' value='@{nimi} heittää Valppaus\n/roll @{ValppausArvo}d10>6 + @{Valppaus_ominaisuus}d10>6'></button>
+        </div>
+    </div>
+    <div class='taitoRivi'>
+        <div class='taitoNimi'>Vilppi</div>
+        <div class='taitoArvo'><input type='text' name='attr_VilppiArvo' class='taitoInput Vilppi' /></div>
+        <div class='taitoOminaisuus'>
+            <select name='attr_Vilppi_ominaisuus' class='taitoOminaisuus'>
+                <option value='@{keho}'>Keho</option>
+                <option value='@{tarkkuus}'>Tarkkuus</option>
+                <option value='@{alykkyys}'>Älykkyys</option>
+                <option value='@{psyyke}'>Psyyke</option>
+            </select>
+        </div>
+        <div class='taitoRoll'>
+            <button type='roll' name='roll_Kunto' value='@{nimi} heittää Vilppi\n/roll @{VilppiArvo}d10>6 + @{Vilppi_ominaisuus}d10>6'></button>
+        </div>
+    </div>
+</div>
+
+
+<h3 class='otsikko'>ERIKOISKOULUTUS/KYBERNETIIKKA</h3>
+<textarea name='attr_erikoiskoulutus_kyber' class='erikoiskoulutus_kyber'></textarea>
+
+<h3 class='otsikko'>VARUSTEET</h3>
+<textarea name='attr_varusteet' class='varusteet'></textarea><br />
+
+Taakka yhteensä <input type='text' name='attr_taakka' class='taakka' /><br />
+Kantokyky <input type='text' name='attr_kantokyky' class='kantokyky' /><br />
+Resurssipisteet <input type='text' name='attr_resurssipisteet' class='resurssipisteet' />
+
+<table class='aseet'>
+    <tbody>
+        <tr>
+            <th>ASEET</th>
+            <th>OT</th>
+            <th>VAH</th>
+            <th>KAN</th>
+            <th>LIP</th>
+            <th>ERIKOISPIIRTEET</th>
+        </tr>
+        <tr>
+            <td><input type='text' name='attr_ase1_nimi' class='ase1_nimi' /></td>
+            <td><input type='text' name='attr_ase1_ot' class='ase1_ot' /></td>
+            <td><input type='text' name='attr_ase1_vah' class='ase1_vah' /></td>
+            <td><input type='text' name='attr_ase1_kan' class='ase1_kan' /></td>
+            <td><input type='text' name='attr_ase1_lip' class='ase1_lip' /></td>
+            <td><input type='text' name='attr_ase1_erikoispiirteet' class='ase1_erikoispiirteet' /></td>
+        </tr>
+        <tr>
+            <td><input type='text' name='attr_ase2_nimi' class='ase2_nimi' /></td>
+            <td><input type='text' name='attr_ase2_ot' class='ase2_ot' /></td>
+            <td><input type='text' name='attr_ase2_vah' class='ase2_vah' /></td>
+            <td><input type='text' name='attr_ase2_kan' class='ase2_kan' /></td>
+            <td><input type='text' name='attr_ase2_lip' class='ase2_lip' /></td>
+            <td><input type='text' name='attr_ase2_erikoispiirteet' class='ase2_erikoispiirteet' /></td>
+        </tr>
+        <tr>
+            <td><input type='text' name='attr_ase3_nimi' class='ase3_nimi' /></td>
+            <td><input type='text' name='attr_ase3_ot' class='ase3_ot' /></td>
+            <td><input type='text' name='attr_ase3_vah' class='ase3_vah' /></td>
+            <td><input type='text' name='attr_ase3_kan' class='ase3_kan' /></td>
+            <td><input type='text' name='attr_ase3_lip' class='ase3_lip' /></td>
+            <td><input type='text' name='attr_ase3_erikoispiirteet' class='ase3_erikoispiirteet' /></td>
+        </tr>
+        <tr>
+            <td><input type='text' name='attr_ase4_nimi' class='ase4_nimi' /></td>
+            <td><input type='text' name='attr_ase4_ot' class='ase4_ot' /></td>
+            <td><input type='text' name='attr_ase4_vah' class='ase4_vah' /></td>
+            <td><input type='text' name='attr_ase4_kan' class='ase4_kan' /></td>
+            <td><input type='text' name='attr_ase4_lip' class='ase4_lip' /></td>
+            <td><input type='text' name='attr_ase4_erikoispiirteet' class='ase4_erikoispiirteet' /></td>
+        </tr>
+        <tr>
+            <td><input type='text' name='attr_ase5_nimi' class='ase5_nimi' /></td>
+            <td><input type='text' name='attr_ase5_ot' class='ase5_ot' /></td>
+            <td><input type='text' name='attr_ase5_vah' class='ase5_vah' /></td>
+            <td><input type='text' name='attr_ase5_kan' class='ase5_kan' /></td>
+            <td><input type='text' name='attr_ase5_lip' class='ase5_lip' /></td>
+            <td><input type='text' name='attr_ase5_erikoispiirteet' class='ase5_erikoispiirteet' /></td>
+        </tr>
+        <tr>
+            <td><input type='text' name='attr_ase6_nimi' class='ase6_nimi' /></td>
+            <td><input type='text' name='attr_ase6_ot' class='ase6_ot' /></td>
+            <td><input type='text' name='attr_ase6_vah' class='ase6_vah' /></td>
+            <td><input type='text' name='attr_ase6_kan' class='ase6_kan' /></td>
+            <td><input type='text' name='attr_ase6_lip' class='ase6_lip' /></td>
+            <td><input type='text' name='attr_ase6_erikoispiirteet' class='ase6_erikoispiirteet' /></td>
+        </tr>
+        <tr>
+            <td><input type='text' name='attr_ase7_nimi' class='ase7_nimi' /></td>
+            <td><input type='text' name='attr_ase7_ot' class='ase7_ot' /></td>
+            <td><input type='text' name='attr_ase7_vah' class='ase7_vah' /></td>
+            <td><input type='text' name='attr_ase7_kan' class='ase7_kan' /></td>
+            <td><input type='text' name='attr_ase7_lip' class='ase7_lip' /></td>
+            <td><input type='text' name='attr_ase7_erikoispiirteet' class='ase7_erikoispiirteet' /></td>
+        </tr>
+        <tr>
+            <td><input type='text' name='attr_ase8_nimi' class='ase8_nimi' /></td>
+            <td><input type='text' name='attr_ase8_ot' class='ase8_ot' /></td>
+            <td><input type='text' name='attr_ase8_vah' class='ase8_vah' /></td>
+            <td><input type='text' name='attr_ase8_kan' class='ase8_kan' /></td>
+            <td><input type='text' name='attr_ase8_lip' class='ase8_lip' /></td>
+            <td><input type='text' name='attr_ase8_erikoispiirteet' class='ase8_erikoispiirteet' /></td>
+        </tr>
+    </tbody>
+</table>
+
+<h3 class='otsikko'>Suojavarusteet</h3>
+<table class='suojavarusteet'>
+    <tbody>
+        <tr>
+            <th>SUOJAVARUSTEET</th>
+            <th>PA</th>
+            <th>HAITTA</th>
+            <th>Erikoispiirteet</th>
+        </tr>
+        <tr>
+            <td><input type='text' name='attr_suoja1_nimi' class='suoja1_nimi' /></td>
+            <td><input type='text' name='attr_suoja1_ot' class='suoja1_ot' /></td>
+            <td><input type='text' name='attr_suoja1_erikoispiirteet' class='suoja1_erikoispiirteet' /></td>
+        </tr>
+        <tr>
+            <td><input type='text' name='attr_suoja2_nimi' class='suoja2_nimi' /></td>
+            <td><input type='text' name='attr_suoja2_ot' class='suoja2_ot' /></td>
+            <td><input type='text' name='attr_suoja2_erikoispiirteet' class='suoja2_erikoispiirteet' /></td>
+        </tr>
+        <tr>
+            <td><input type='text' name='attr_suoja3_nimi' class='suoja3_nimi' /></td>
+            <td><input type='text' name='attr_suoja3_ot' class='suoja3_ot' /></td>
+            <td><input type='text' name='attr_suoja3_erikoispiirteet' class='suoja3_erikoispiirteet' /></td>
+        </tr>
+    </tbody>
+</table>
+
+KATARSIS    [1-6]
+Totuudet

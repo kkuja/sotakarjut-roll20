@@ -1,0 +1,59 @@
+.sheet-Aloite {
+    width: 5em;
+    margin: 0.5em 1em;
+}
+.sheet-Puolustus {
+    width: 5em;
+    margin: 0.5em 1em;
+}
+.sheet-Panssari {
+    width: 5em;
+    margin: 0.5em 1em;
+}
+.sheet-Refbonus {
+    width: 5em;
+    margin: 0.5em 1em;
+}
+.sheet-Liike {
+    width: 5em;
+    margin: 0.5em 1em;
+}
+.sheet-keho {
+    width: 5em;
+    margin: 0.5em 1em;
+}
+.sheet-tarkkuus {
+    width: 5em;
+    margin: 0.5em 1em;
+}
+.sheet-alykkyys {
+    width: 5em;
+    margin: 0.5em 1em;
+}
+.sheet-psyyke {
+    width: 5em;
+    margin: 0.5em 1em;
+}
+
+.sheet-va1, .sheet-va2, .sheet-va3, .sheet-va4 {
+    width: 3em;
+    margin: 0 0.5em;
+}
+
+.sheet-taitoInput {
+    width: 3em;
+    border-radius: 3px;
+}
+
+.sheet-taitoNimi {
+    min-width: 100px;
+    display: inline-block;
+}
+
+.sheet-taitoArvo, .sheet-taitoRoll {
+    display: inline-block;
+}
+
+.sheet-taitoOminaisuus {
+    display: inline-block;
+}
